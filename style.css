@@ -108,7 +108,7 @@ nav ul li a:hover {
 .btn {
     margin-top: 20px;
     padding: 10px 20px;
-    background: white;
+    background: rgb(203, 197, 197);
     color: black;
     text-decoration: none;
     border-radius: 5px;
@@ -116,7 +116,7 @@ nav ul li a:hover {
 
 .btn:hover {
     background: #222;
-    color: white;
+    color: rgb(204, 200, 200);
 }
 
 /* Sections */
@@ -152,7 +152,7 @@ nav ul li a:hover {
 }
 
 .project-card {
-    background: #f4f4f4;
+    background: #e8e9eb;
     padding: 20px;
     margin: 15px;
     width: 250px;
@@ -163,6 +163,9 @@ nav ul li a:hover {
 .project-card:hover {
     transform: scale(1.05);
     transition: 0.3s;
+}
+.contact-card {
+    background: #dcdcdd;
 }
 
 /* Responsive */
