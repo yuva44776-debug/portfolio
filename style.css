@@ -137,11 +137,15 @@ nav ul li a:hover {
 }
 
 .skill {
-    background: #00adb5;
+    background: #10a9b5;
     color: white;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 20px;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
 }
 
 /* Projects */
@@ -189,4 +193,143 @@ nav ul li a:hover {
         margin-top: 20px;
         width: 250px;
     }
+}
+/* ABOUT SECTION */
+
+#about {
+    padding: 80px 10%;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #1e2a78;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+/* SKILLS SECTION */
+
+#skills {
+    padding: 80px 10%;
+    background: white;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #1e2a78;
+}
+
+/* HORIZONTAL LAYOUT */
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* PROFESSIONAL CARD DESIGN */
+
+.skill {
+    background: linear-gradient(135deg, #1e2a78, #10a9b5);
+    color: white;
+    width: 250px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: 0.4s;
+}
+
+.skill:hover {
+    transform: translateY(-10px);
+}
+
+.skill h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.skill p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+/* HERO CONTENT */
+
+.hero-content h3 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero-content h2 {
+    font-size: 38px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.hero-content span {
+    color: #22d3ee;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #e5e5e5;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+/* BUTTONS */
+
+.hero-buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 32px;
+    background: #22d3ee;
+    color: #111;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+    transform: translateY(-3px);
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid #22d3ee;
+    color: white;
+}
+
+.btn-outline:hover {
+    background: #22d3ee;
+    color: black;
 }
